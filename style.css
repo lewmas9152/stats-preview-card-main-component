@@ -113,6 +113,7 @@ img {
         flex-direction:row-reverse;
         max-width: 780px;
         margin: auto;
+        text-align: unset;
     
     }
     
@@ -121,8 +122,9 @@ img {
     .stats{
         display: flex;
         flex-direction: row;
-        margin:unset;
-        padding: 2rem;
+        /* margin-top:2rem; */
+        /* padding: 1rem; */
+        /* padding-bottom: 0; */
     }
 
     .card__img{
@@ -131,6 +133,8 @@ img {
     .card_content{
         width: 55%;
         margin-right: 2rem;
+        margin-bottom: auto;
+    
     }
     
 }
