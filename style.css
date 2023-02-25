@@ -102,6 +102,12 @@ img {
     
 }
 @media screen and (min-width:650px) {
+    
+    body{
+        height: 100svh;
+        display: grid;
+        place-items: center;
+    }
     .card {
         display:flex;
         flex-direction:row-reverse;
